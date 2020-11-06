@@ -121,7 +121,7 @@ def play_music():
             status_bar['text'] = "playing " + os.path.basename(now_playing)
         except:
             tkinter.messagebox.showinfo("ERROR - NO AUDIO FILE FOUND.",
-                                        "Melody could not find the file to play. "
+                                        "GoodMusic could not find the file to play. "
                                         "please make sure to load a file before playing")
 
 
