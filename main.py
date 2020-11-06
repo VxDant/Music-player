@@ -47,7 +47,7 @@ sub_menu.add_cascade(label="Exit", command=root.destroy)
 
 
 def about_us():
-    tkinter.messagebox.showinfo("About Melody",
+    tkinter.messagebox.showinfo("About GoodMusic",
                                 "Hello Dear User!!"
                                 " This music player is developed using python by Vedant Achtani. "
                                 "Hope you enjoy it. Cheers!")
