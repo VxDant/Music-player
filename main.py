@@ -105,7 +105,7 @@ def play_music():
     global paused
     if paused:
         mixer.music.unpause()
-        status_bar['text'] = 'Music Resumed'
+        status_bar['text'] = 'Music Resumed..'
         paused = False
     else:
 
@@ -118,7 +118,7 @@ def play_music():
             mixer.music.load(now_playing)
             mixer.music.play()
             show_detail(now_playing)
-            status_bar['text'] = "playing " + os.path.basename(now_playing)
+            status_bar['text'] = "Playing Music.."
         except:
             tkinter.messagebox.showinfo("ERROR - NO AUDIO FILE FOUND.",
                                         "GoodMusic could not find the file to play. "
